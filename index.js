@@ -22,14 +22,14 @@ function sayHiToGrandma(string) {
 if (string === string.toLowerCase())
 return 'I cant hear you!';
 }
-sayHiToGrandma('I cant hear you!');
+sayHiToGrandma('I can\'t hear you!');
 
 
 function sayHiToGrandma(string) {
 if (string === string.toUpperCase())
 return "YES INDEED";
 }
-sayHiToGrandma("YES INDEED");
+sayHiToGrandma("YES INDEED!");
 
 
 function sayHiToGrandma(string) {
