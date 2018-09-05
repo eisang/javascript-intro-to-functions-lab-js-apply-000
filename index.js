@@ -1,7 +1,7 @@
 function shout(string) {
   return string.toUpperCase()
 };
-shout("sing"); 
+shout("sing");
 
 
 
@@ -19,5 +19,3 @@ logShout("sing")
 function logWhisper(string){
   console.log(string.toLowerCase());
 }
-
-
