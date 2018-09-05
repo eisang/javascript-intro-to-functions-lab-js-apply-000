@@ -1,3 +1,11 @@
+function shout(string) {
+  return string.toUpperCase()
+};
+shout("sing"); 
+
+
+
+
 function whisper(string){
   return string.toLowerCase();
 }
@@ -11,4 +19,5 @@ logShout("sing")
 function logWhisper(string){
   console.log(string.toLowerCase());
 }
-logWhisper("SING");
+
+
