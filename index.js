@@ -19,16 +19,16 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(string) {
-if (`string` === string.toLowerCase())
-return "I can\'t hear you!";
+if (string === string.toLowerCase()) {
+return 'I can\'t hear you!';
+ }
 }
 //sayHiToGrandma('I can\'t hear you!');
-
-
 function sayHiToGrandma(string) {
-if (`string` === string.toUpperCase())
+else if (string === string.toUpperCase()) {
 // if (string.toUpperCase() === string)
 return "YES INDEED!";
+ }
 }
 //sayHiToGrandma("YES INDEED!");
 
